@@ -3,9 +3,9 @@
     "displayName": "Rubber Duck Log",
     "publisher": "dirmina",
     "description": "log is life, so we need shortcuts !",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
-        "vscode": "^1.66.0"
+        "vscode": "1.65.0"
     },
     "categories": [
         "Snippets"
