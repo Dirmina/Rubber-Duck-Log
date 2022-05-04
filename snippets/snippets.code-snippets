@@ -1,1 +1,16 @@
-{}
+{
+	"Print Json STRINGIFY": {
+		"prefix": "logJSONSTR",
+		"body": [
+			"console.log('', JSON.stringify(data, null, 2));"
+		],
+		"description": "Log output of a JS object to JSON object to console"
+	},
+  "Knex To SQL": {
+    "prefix": "knexToSQL",
+		"body": [
+			"console.log(query._internal.toSQL());"
+		],
+		"description": "Log a SQL query instead of a knex builder to console"
+  }
+}
