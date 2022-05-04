@@ -1,0 +1,20 @@
+{
+    "name": "rubber-duck-log",
+    "displayName": "Rubber Duck Log",
+    "description": "log is life, so we need shortcuts !",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
