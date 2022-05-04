@@ -12,5 +12,12 @@
 			"console.log(query._internal.toSQL());"
 		],
 		"description": "Log a SQL query instead of a knex builder to console"
+  },
+  "Log Dividing": {
+    "prefix": ["LogDiv", "LogSep"],
+		"body": [
+			"console.log('||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||');"
+		],
+		"description": "Log a dividing thing for the blind duck 🦆🦆"
   }
 }
