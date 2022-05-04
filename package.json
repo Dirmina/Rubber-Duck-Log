@@ -1,6 +1,7 @@
 {
     "name": "rubber-duck-log",
     "displayName": "Rubber Duck Log",
+    "publisher": "dirmina",
     "description": "log is life, so we need shortcuts !",
     "version": "0.0.1",
     "engines": {
