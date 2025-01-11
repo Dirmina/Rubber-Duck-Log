@@ -6,6 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [_v1.1.1_] - [_11.01.2025_]
+
+### Changed
+ -allow snippets to be triggered in jsx files.
+
 ## [_v1.1.0_] - [_11.01.2025_]
 
 ### Added

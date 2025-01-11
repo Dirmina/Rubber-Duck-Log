@@ -18,6 +18,11 @@ Use TAB to navigate through snippet's placeholders.
 My doctor told me to not talk about it 🤡
 
 ## Release Notes
+## [_v1.1.1_] - [_11.01.2025_]
+
+### Changed
+ -allow snippets to be triggered in jsx files.
+
 ## [_v1.1.0_] - [_11.01.2025_]
 
 ### Added
