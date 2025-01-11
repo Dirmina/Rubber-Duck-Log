@@ -1,0 +1,47 @@
+{
+	"Print Json STRINGIFY": {
+		"prefix": "logJSONSTR",
+		"body": [
+			"console.log('stringify $1', JSON.stringify($1, null, 2));"
+		],
+		"description": "Log the JSON of a JS Object"
+	},
+  "Knex To SQL": {
+    "prefix": "knexToSQL",
+		"body": [
+			"console.log($1._internal.toSQL());"
+		],
+		"description": "Log a SQL query instead of a knex builder"
+  },
+  "Log A Division Line": {
+    "prefix": ["LogDiv", "LogSep"],
+		"body": [
+			"console.log('||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||');"
+		],
+		"description": "Log a dividing line when the console is hard to follow (done with love for the blind duck 🦆🦆,)"
+  },
+	"React Function Component export Default": {
+    "prefix": ["reactFcDefault"],
+		"body": [
+			"const $1 = ({ $2 }) => {",
+			"$4",
+			"return <$3>component name: $1</$3>",
+			"}",
+			"",
+			"export default $1;"
+		],
+		"description": "create a react function component template that use export default "
+  },
+	"React Function Component export Object": {
+    "prefix": ["reactFcObject"],
+		"body": [
+			"const $1 = ({ $2 }) => {",
+			"$4",
+			"return <$3>component name: $1</$3>",
+			"}",
+			"",
+			"export { $1 };"
+		],
+		"description": "create a react function component template that use export { MyComponent } "
+  }
+}

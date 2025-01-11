@@ -1,11 +1,11 @@
 {
     "name": "rubber-duck-log",
-    "displayName": "Rubber Duck Log",
+    "displayName": "Rubber Duck Snippets",
     "publisher": "dirmina",
-    "description": "log is life, so we need shortcuts !",
-    "version": "0.0.4",
+    "description": "log is life, so we need snippets !",
+    "version": "1.1.0",
     "engines": {
-        "vscode": "^1.40.0"
+        "vscode": "^1.95.0"
     },
     "categories": [
         "Snippets"
@@ -14,7 +14,7 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/snippets.code-snippets.json"
             }
         ]
     },
